@@ -5,36 +5,13 @@
 This repository provides a comprehensive guide to the Blue Machine which is a Capture the Flag (CTF) challenge designed to test your skills in network scanning, web application testing, password cracking, privilege escalation, and system exploitation. This machine provides an opportunity to utilise a variety of tools and techniques commonly used in real-world penetration testing. You will encounter a combination of web-based vulnerabilities, system misconfigurations, and network-related challenges.
 
 ### Features:
-- NMAP (Network Mapper)
-NMAP is used for network scanning, identifying live hosts, and enumerating open ports/services on the target machine. Expect to perform full-service enumeration and version detection to discover potential vulnerabilities.
-- Hashcat
-Hashcat is employed to crack passwords or hash values found during the challenge, such as those retrieved from configuration files or databases.
-- Dirb/Dirbuster/FFUF
-These tools will be used for web directory and file brute-forcing to discover hidden resources or services within the web application. Expect to uncover directories with potentially sensitive data or misconfigurations.
-- PHP Reverse Shell
-The PHP reverse shell allows for remote code execution. You will use this shell to establish a reverse connection back to your local machine after exploiting a vulnerable web application or misconfiguration.
-- Linpeas (Linux Privilege Escalation Enumeration)
-Linpeas will help you scan for potential privilege escalation vectors once you've gained initial access to the system. It will identify misconfigurations, setuid binaries, and other weaknesses that can be leveraged for escalating privileges.
-- Pspy64
-Pspy64 is used to monitor the processes running on the target system in real time. It can help identify scheduled tasks, cron jobs, or other processes that might be running with elevated privileges, making it a valuable tool for post-exploitation.
-- Bash Reverse Shell One-Liner
-The bash reverse shell one-liner will be useful when you need to quickly establish a reverse shell connection, bypassing firewalls and security measures.
-- Netcap (Network Capture)
-Netcap will capture network traffic, allowing you to analyse packets, sniff traffic, and uncover hidden information such as unencrypted credentials, flags, or other clues that might assist you in further exploiting the system.
-
+- Metasploit (Framework)
+Metasploit is a penetration testing framework that helps security professionals identify and exploit vulnerabilities in networks, systems, and applications
 
 ### Prerequisites:
 Before starting the Academy Machine challenge, it is recommended to have basic knowledge and hands-on experience with the following tools and concepts:
 
-- Networking Fundamentals: Knowledge of TCP/IP, ports, and protocols.
-- NMAP: For network discovery and service enumeration.
-- Hashcat: For password cracking and hash analysis.
-- Dirb/Dirbuster/FFUF: Web directory and file brute-forcing tools.
-- PHP Reverse Shell: Using PHP scripts to initiate reverse shells for exploitation.
-- Linpeas: Linux privilege escalation enumeration script.
-- Pspy64: To monitor processes running on the machine.
-- Bash Reverse Shell One-Liner: Executing reverse shell using bash scripting.
-- Netcap: For monitoring and capturing network traffic, analysing packets for clues.
+- Metasploit
 
 <h2>Environments Used </h2>
 
