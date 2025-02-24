@@ -5,6 +5,7 @@
 This repository provides a comprehensive guide to the Blue Machine which is a Capture the Flag (CTF) challenge designed to test your skills in network scanning, web application testing, password cracking, privilege escalation, and system exploitation. This machine provides an opportunity to utilise a variety of tools and techniques commonly used in real-world penetration testing. You will encounter a combination of web-based vulnerabilities, system misconfigurations, and network-related challenges.
 
 ### Features:
+- NMAP ()
 - Metasploit (Framework)
 Metasploit is a penetration testing framework that helps security professionals identify and exploit vulnerabilities in networks, systems, and applications
 
