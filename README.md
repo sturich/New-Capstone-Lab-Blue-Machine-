@@ -18,6 +18,7 @@ Before starting the Academy Machine challenge, it is recommended to have basic k
 
 - <b>Linux</b>
 - <b>Windows</b>
+- <b>VirtualBox</b>
 
 <h2>Walk-through:</h2>
 
